@@ -1,0 +1,17 @@
+.generator {
+    display: block;
+
+}
+.outer {
+    list-style-type: none;
+    margin:5px 0;
+    padding: 0;
+}
+
+.password {
+    height: 1.5em;
+    padding: 5px;
+    border: solid 1px #ababab;
+    margin: 5px 0;
+    overflow: auto;
+}

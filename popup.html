@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Password Generator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <form name="generator" class="generator" id="generator">
+        <ul class="outer">
+            <li>
+                <label for="passlength">Długość hasła</label>
+                <input type="number" name="passlength" id="passlength" min="0">
+            </li>
+            <li>
+                <input type="radio" name="capitals" id="capitals">
+                <label for="capitals">Duże litery</label>
+            </li>
+            <li>
+                <input type="radio" name="digits" id="digits">
+                <label for="numbers">Liczby</label>
+            </li>
+            <li>
+                <input type="radio" name="special" id="special">
+                <label for="special">Znaki specjalne</label>
+            </li>
+        </ul>
+        <button>Generuj hasło</button>
+        </form>
+        <section class="password" id="password">
+
+        </section>
+        <script src="js/main.js"></script>
+    </body>
+</html>

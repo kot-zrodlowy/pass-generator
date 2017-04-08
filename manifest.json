@@ -1,0 +1,10 @@
+{
+    "manifest_version": 2,
+    "name": "Pass Generator",
+    "version": "1.0.0",
+    "browser_action": {
+        "default_icon": "resources/icon.png",
+        "default_popup": "popup.html",
+        "default_title": "Generuj hasło"
+    }
+}
